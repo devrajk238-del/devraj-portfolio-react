@@ -1,0 +1,48 @@
+footer {
+    color: var(--white);
+    text-align: center;
+    padding: 30px;
+    background: #0788ff;
+}
+
+footer p {
+    margin: 0;
+}
+
+#Form {
+    background: #d7ebfd;
+    /* margin-bottom: 10px; */
+}
+
+.formCon {
+    background: #ffffff;
+    padding: 50px;
+    box-shadow: 10px 10px 0px #0788ff2e;
+    transition: all 0.5s;
+}
+
+form>div {
+    margin-bottom: 20px;
+}
+
+form .form-control,
+form textarea {
+    font-size: 20px;
+    background-color: #d7ebfd;
+    border-radius: 0;
+    border: none;
+}
+
+form .row {
+    --bs-gutter-x: 20px;
+}
+
+form .row {
+    --bs-gutter-x: 20px;
+}
+
+.form-control:focus,
+textarea:focus {
+    background-color: #d7ebfd;
+    box-shadow: none;
+}

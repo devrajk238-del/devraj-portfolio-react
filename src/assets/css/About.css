@@ -1,0 +1,43 @@
+.about figure {
+    background: #bfe0ff;
+    padding: 50px 70px 0;
+    position: relative;
+    /* background: linear-gradient(-90deg, #039BDC, #11BED2, #11BED2, #039BDC); */
+    background-size: 400% 400%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.about figure::after {
+    content: "";
+    position: absolute;
+    left: -38px;
+    top: -20px;
+    width: 80px;
+    height: 80px;
+    background: #bfe0ff;
+}
+
+.about figure::before {
+    content: "";
+    position: absolute;
+    right: -38px;
+    bottom: -25px;
+    width: 80px;
+    height: 80px;
+    background: #bfe0ff;
+}
+
+.abCon p {
+    padding: 15px 0 20px;
+}

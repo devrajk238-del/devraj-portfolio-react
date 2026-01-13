@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Space+Grotesk:wght@300..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: #0788ff;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+}
+
+html,
+body {
+    font-family: "Cabin", sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+section {
+    padding: 80px 0;
+}
+
+figure {
+    margin: 0;
+}
+
+small {
+    background: #84c1f952;
+    color: var(--blue);
+    padding: 5px 20px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.row {
+    align-items: center;
+    --bs-gutter-x: 60px;
+}
+
+span {
+    color: var(--blue);
+}
+
+.heading {
+    padding-bottom: 25px;
+}

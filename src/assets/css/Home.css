@@ -1,0 +1,25 @@
+.hero {
+    background: #0788ff42;
+    padding: 150px 0 0;
+}
+
+.hero .row {
+    align-items: center;
+}
+
+.hero .myInfo h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 1;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+
+.hero .figure {
+    width: 100%;
+    text-align: end;
+}
+
+.infoBtn a {
+    text-transform: uppercase;
+}

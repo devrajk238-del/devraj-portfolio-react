@@ -1,0 +1,28 @@
+.myBtn {
+    position: relative;
+    padding: 5px 20px;
+    color: var(--white) !important;
+    border: 2px solid var(--blue);
+    transition: all 0.2s;
+    z-index: 1;
+}
+
+.myBtn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--blue);
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+.myBtn:hover::after {
+    height: 0;
+}
+
+.myBtn:hover {
+    color: var(--black) !important;
+}

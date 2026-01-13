@@ -1,0 +1,38 @@
+header.scrolled {
+    background: #a8d5ff;
+    box-shadow: 0px -10px 20px 5px var(--black);
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 2px solid #0788ff24;
+    transition: background-color 0.5s ease;
+    z-index: 2;
+    transition: all 0.5s;
+}
+
+.header a {
+    color: var(--black);
+}
+
+.header .navbar-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+}
+
+.header .navbar-links li a {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.header .navbar-brand a {
+    font-size: 50px;
+    color: var(--blue);
+    font-weight: 700;
+}
